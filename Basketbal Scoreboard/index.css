@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    color: #EEEEEE;
+    font-family: Verdana;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 0;
+    font-family: Verdana;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #080001;
+    text-align: end;
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 155px;
+    height: 120px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+
+.button {
+    font-family: Cursed Timer ULiL;
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    height: 45px;
+    width: 45px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.button:hover {
+  background-color: #9AABD8; 
+  color: #080001;
+}
+
+#new-game {
+  display: block;        
+  margin: 40px auto;        
+  background-color: transparent;
+  border: 2px solid #F94F6D;
+  color: #F94F6D;
+  font-family: "Cursed Timer ULiL";
+  font-size: 24px;
+  padding: 10px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#new-game:hover {
+  background-color: #F94F6D; 
+  color: #080001;
+}
+
+.glow {
+      text-shadow: 0 0 20px #F94F6D;
+}
